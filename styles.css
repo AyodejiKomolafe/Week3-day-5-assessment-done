@@ -1,0 +1,150 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.main-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.goat-img{
+	width: 200px;
+	height: 200px;
+}
+
+.bio{
+	margin-left: 50px;
+	margin-top: -20px;
+}
+
+.pic-bio{
+	display: flex;
+}
+
+.skills-container{
+	margin-top: 10px;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	
+}
+
+
+.skills, .interests, .career-goals{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.color:hover, .place:hover, .ritual:hover{
+	background-color: yellow;
+	width: 170px;
+	border-radius: 10px;
+}
+
+.color, .place, .ritual{
+	margin-left: 30px;
+}
+
+h2{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h2:hover{
+	/* transform: scaleY(1.5); */
+	transform: rotate(360deg);
+	transition-duration: 3s;
+	cursor: pointer;
+}
+
+p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 18px;
+}
+
+li{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+h3{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.hood-container{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+
+.image-places-container{
+	display: flex;
+}
+.img-hood{
+	width: 300px;
+	height: 200px;
+}
+
+.hood-p{
+	margin-left: 50px;
+	margin-top: -7px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.places-names-links{
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hood{
+	font-family: cursive;
+	font-size: 30px;
+}
+
+.res-btn{
+	width: 150px;
+	border-radius: 10px;
+}
